@@ -1,0 +1,21 @@
+body{font-family: 'Courier New', Courier, monospace;
+display: flex; flex-direction: column; margin: 0px;}
+img {width: 200px; border-radius: 20px; height: 200px; border:5px solid;}
+a {text-decoration: none; color:#F9FAF8;}
+li{list-style: none;}
+header{color: #F9FAF8; display: flex; justify-content: space-around; font-weight: bold; background:#1F2937;;}
+.logo{font-size: 24px;}
+.links{gap: 20px; display: flex; align-items: center;}
+.master{flex-flow: column ; background: #1F2937; }
+.master h1 {display: flex; font-weight: bold; font-size: 48px; color: #F9FAF8; max-width: 700px; padding:20px;
+}
+button{cursor: pointer; background: rgb(206, 119, 208); text-decoration: none; border: none; border-radius: 20px; width: 100px; height: 60px;
+}
+.btn-cont{justify-content: center; align-items: center; display: flex; margin-bottom: 20px; }
+.hero-p{color: #F9FAF8; padding: 20px;}
+.opinion{background: gray; display:  flex; justify-content: space-around; align-items: end; }
+.container{ flex-wrap: wrap; display: flex ;padding: 20px; gap:20px; background: #F9FAF8; margin-bottom: 0PX;}
+.new{display: flex; flex-direction: column; background: coral; padding: 20px; margin: 20px;}
+.cont-opinion{display: flex; flex-direction: column; background: #F9FAF8;}
+.footer{display: flex; flex-direction: column; background: #1F2937; align-items: center;}
+.p-Footer{padding: 30px; color: #F9FAF8;}
